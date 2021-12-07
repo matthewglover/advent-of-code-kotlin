@@ -22,9 +22,9 @@ fun main() {
 }
 
 object AngelFishModel {
-    private val ageOnFirstSpawn = 8
-    private val ageAfterRespawn = 6
-    private val intervalBetweenRespawns = ageAfterRespawn + 1
+    private const val ageOnFirstSpawn = 8
+    private const val ageAfterRespawn = 6
+    private const val intervalBetweenRespawns = ageAfterRespawn + 1
 
     private val memo = mutableMapOf<Pair<Int, Int>, Long>()
 
